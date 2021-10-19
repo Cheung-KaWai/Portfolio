@@ -1,0 +1,27 @@
+.subtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.line {
+  width: 5rem;
+  height: 0.3rem;
+  background-color: #ffc0cb;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.subtitle > h4 {
+  color: #ffc0cb;
+  font-weight: 600;
+}
+
+#soon {
+  display: flex;
+}
+
+#soon span {
+  padding-left: 00.5rem;
+  color: var(--text);
+}
