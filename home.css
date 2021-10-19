@@ -1,0 +1,155 @@
+/*header*/
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.line {
+  width: 5rem;
+  height: 0.3rem;
+  background-color: #4a8fff;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.subtitle > h4 {
+  color: #4a8fff;
+  font-weight: 600;
+}
+
+#cover {
+  display: flex;
+}
+#cover > * {
+  flex: 1;
+}
+
+h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+#logo {
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.cube {
+  width: 15rem;
+  position: absolute;
+}
+
+#cube3 {
+  top: 170px;
+}
+
+#cube2 {
+  right: 115px;
+  top: 85px;
+}
+#cube4 {
+  top: 85px;
+  left: 115px;
+}
+
+.cta > a {
+  text-decoration: none;
+  padding: 1.5rem 2rem;
+  background-color: #3b73cc;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  border-radius: 3px;
+}
+
+.cta {
+  margin: 5rem 0 20rem 0;
+  display: inline-block;
+}
+
+.cta > a:hover {
+  color: rgba(59, 115, 204, 1);
+  background-color: #9e9dab0a;
+}
+
+/*projects*/
+#projects {
+  margin-bottom: 10rem;
+}
+
+#projectsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.imgContainer {
+  width: 50rem;
+  height: 50rem;
+  background-color: #9e9dab0a;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.previewImage {
+  width: 50rem;
+  height: 28rem;
+  object-fit: fill;
+}
+
+.projectDescription {
+  flex: 1;
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectDescription h2 {
+  color: #3b73cc;
+  margin-bottom: 2rem;
+}
+
+.projectDescription a {
+  margin-top: auto;
+  text-decoration: none;
+  align-self: flex-end;
+  padding: 1rem 2rem;
+  color: #3b73cc;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+}
+
+.icon {
+  padding-left: 0.5rem;
+  transition: transform 0.3s ease-out;
+}
+
+.projectDescription a:hover .icon {
+  transform: translate(5px);
+}
+
+/*about*/
+#about {
+  height: 20rem;
+}
+
+#soon {
+  display: flex;
+}
+
+#soon span {
+  padding-left: 00.5rem;
+  color: var(--text);
+}

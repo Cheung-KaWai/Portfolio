@@ -1,0 +1,79 @@
+.subtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.line {
+  width: 5rem;
+  height: 0.3rem;
+  background-color: #88dea8;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.subtitle > h4 {
+  color: #88dea8;
+  font-weight: 600;
+}
+
+#bannerContainer {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#bannerContainer > div {
+  flex-grow: 1;
+  height: 40rem;
+  background-color: #9e9dab0a;
+  padding: 3rem 5rem;
+}
+
+#banner {
+  width: 70rem;
+  height: 40rem;
+}
+
+#mainInfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+#mainInfo ul li {
+  list-style: none;
+  position: relative;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+#mainInfo ul li::before {
+  content: "";
+  width: 1.5rem;
+  left: -3rem;
+  top: 7px;
+  height: 1.5rem;
+  position: absolute;
+  background-color: #88dea8;
+}
+
+#github {
+  margin-top: auto;
+  text-decoration: none;
+  align-self: flex-end;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #88dea8;
+  font-weight: 500;
+  display: flex;
+}
+
+.icon {
+  padding-left: 0.5rem;
+  transition: transform 0.3s ease-out;
+}
+
+#github:hover .icon {
+  transform: translate(5px);
+}

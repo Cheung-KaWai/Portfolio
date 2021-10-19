@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="mainstyle.css" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav>
+      <p id="logoIcon">Ka Wai</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#over">About</a></li>
+      </ul>
+    </nav>
+    <div id="bodyContainer">
+      <header>
+        <div class="subtitle">
+          <div class="line"></div>
+          <h4>Ka Wai Cheung</h4>
+        </div>
+        <div id="cover">
+          <h1>
+            Hi my name is <br />
+            Ka Wai Cheung<br />
+            Student Web & Mobile Development
+          </h1>
+          <div id="logo">
+            <img class="cube" src="img/top.svg" alt="cube1" id="cube1" />
+            <img class="cube" src="img/rightsvg.svg" alt="cube2" id="cube2" />
+            <img class="cube" src="img/bottom.svg" alt="cube3" id="cube3" />
+            <img class="cube" src="img/left.svg" alt="cube4" id="cube4" />
+          </div>
+        </div>
+        <div class="cta" id="project">
+          <a href="#project">See Schoolprojects</a>
+        </div>
+      </header>
+      <section id="projects">
+        <div class="subtitle">
+          <div class="line"></div>
+          <h4>Schoolprojects</h4>
+        </div>
+        <div id="projectsContainer">
+          <div class="imgContainer">
+            <img
+              src="img/fullstack.PNG"
+              alt="dashboard renovatie"
+              class="previewImage"
+            />
+            <div class="projectDescription">
+              <h2>Fullstack - Renovatiebouw</h2>
+              <p>Laravel, Vue.js, MySql</p>
+              <a href="renovatiebouw.html"
+                >View<span class="material-icons icon">east</span></a
+              >
+            </div>
+          </div>
+          <div class="imgContainer">
+            <img
+              src="img/crowdcontrol.PNG"
+              alt="homepage crowdcontrol"
+              class="previewImage"
+            />
+            <div class="projectDescription">
+              <h2>Serverside - CrowdControl</h2>
+              <p>PHP, Twig, Three.js, MySql</p>
+              <a href="#">View<span class="material-icons icon">east</span></a>
+            </div>
+          </div>
+          <div class="imgContainer">
+            <img
+              src="img/transport.PNG"
+              alt="dashboard transporttool"
+              class="previewImage"
+            />
+            <div class="projectDescription">
+              <h2>Serverside - Transporttool</h2>
+              <p>PHP, Twig, MySql</p>
+              <a href="#">View<span class="material-icons icon">east</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="subtitle">
+          <div class="line"></div>
+          <h4 id="over">About</h4>
+        </div>
+        <p id="soon">
+          Coming soon
+          <span class="material-icons"> construction </span>
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
