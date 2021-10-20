@@ -77,3 +77,25 @@
 #github:hover .icon {
   transform: translate(5px);
 }
+
+#frontendImg img {
+  width: 60rem;
+  margin-right: 5rem;
+  box-shadow: 2px solid 2;
+}
+
+#description {
+  display: flex;
+}
+
+.underline {
+  text-decoration-style: dashed;
+  color: #88dea8;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 3px;
+}
+
+.caption {
+  font-size: 1.2rem;
+  color: #a7abbf;
+}
