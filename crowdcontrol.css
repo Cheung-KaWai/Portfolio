@@ -1,3 +1,7 @@
+:root {
+  --orange: #ffa62b;
+}
+
 .subtitle {
   display: flex;
   align-items: center;
@@ -7,13 +11,13 @@
 .line {
   width: 5rem;
   height: 0.3rem;
-  background-color: #ffa62b;
+  background-color: var(--orange);
   margin-right: 1rem;
   border-radius: 5px;
 }
 
 .subtitle > h4 {
-  color: #ffa62b;
+  color: var(--orange);
   font-weight: 600;
 }
 
@@ -24,4 +28,96 @@
 #soon span {
   padding-left: 00.5rem;
   color: var(--text);
+}
+
+#bannerContainer {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#bannerContainer > div {
+  flex-grow: 1;
+  height: 40rem;
+  background-color: #9e9dab0a;
+  padding: 3rem 5rem;
+}
+
+#banner {
+  width: 70rem;
+  height: 40rem;
+}
+
+#mainInfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+#mainInfo ul li {
+  list-style: none;
+  position: relative;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+#mainInfo ul li::before {
+  content: "";
+  width: 1.5rem;
+  left: -3rem;
+  top: 7px;
+  height: 1.5rem;
+  position: absolute;
+  background-color: var(--orange);
+}
+
+#github {
+  margin-top: auto;
+  text-decoration: none;
+  align-self: flex-end;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: var(--orange);
+  font-weight: 500;
+  display: flex;
+}
+
+.icon {
+  padding-left: 0.5rem;
+  transition: transform 0.3s ease-out;
+}
+
+#github:hover .icon {
+  transform: translate(5px);
+}
+
+.figure img {
+  width: 60rem;
+
+  box-shadow: 2px solid 2;
+}
+
+.description {
+  display: flex;
+  margin-bottom: 10rem;
+}
+
+.underline {
+  text-decoration-style: dashed;
+  color: var(--orange);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 3px;
+}
+
+.caption {
+  font-size: 1.2rem;
+  color: #a7abbf;
+}
+
+#threeImg {
+  margin-left: 5rem;
+}
+
+#dashboardImg {
+  margin-right: 5rem;
 }
